@@ -1,0 +1,126 @@
+{
+ "_doc": "BGM composed from earshot bank notes. Progressions are 4 bars; each bar = [bass note, 8 eighth-note arpeggio notes or null]. marimba bass range is D#3 and up.",
+ "bpm": 96,
+ "fade_in_s": 1.0,
+ "gain_db": -2,
+ "duck_db": 9,
+ "minor_scenes": [
+  8
+ ],
+ "happy": [
+  [
+   "E3",
+   [
+    "C5",
+    "E5",
+    "G5",
+    "E5",
+    "C6",
+    "G5",
+    "E5",
+    "G5"
+   ]
+  ],
+  [
+   "A3",
+   [
+    "A4",
+    "C5",
+    "E5",
+    "C5",
+    "A5",
+    "E5",
+    "C5",
+    "E5"
+   ]
+  ],
+  [
+   "F3",
+   [
+    "F4",
+    "A4",
+    "C5",
+    "A4",
+    "F5",
+    "C5",
+    "A4",
+    "C5"
+   ]
+  ],
+  [
+   "G3",
+   [
+    "G4",
+    "B4",
+    "D5",
+    "B4",
+    "G5",
+    "D5",
+    "B4",
+    "D5"
+   ]
+  ]
+ ],
+ "minor": [
+  [
+   "A3",
+   [
+    "A4",
+    null,
+    "E5",
+    null,
+    "C5",
+    null,
+    "E5",
+    null
+   ]
+  ],
+  [
+   "F3",
+   [
+    "F4",
+    null,
+    "C5",
+    null,
+    "A4",
+    null,
+    "C5",
+    null
+   ]
+  ],
+  [
+   "F3",
+   [
+    "D4",
+    null,
+    "A4",
+    null,
+    "F4",
+    null,
+    "A4",
+    null
+   ]
+  ],
+  [
+   "E3",
+   [
+    "E4",
+    null,
+    "B4",
+    null,
+    "G#4",
+    null,
+    "B4",
+    null
+   ]
+  ]
+ ],
+ "final_chord": [
+  "C4",
+  "E4",
+  "G4",
+  "C5",
+  "E5"
+ ],
+ "final_bass": "E3"
+}

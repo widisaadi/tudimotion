@@ -1,0 +1,220 @@
+{
+ "fps": 30,
+ "voStart": 6,
+ "scenes": [
+  {
+   "voFrames": 254,
+   "phrases": [
+    {
+     "start": 15,
+     "end": 121
+    },
+    {
+     "start": 140,
+     "end": 192
+    },
+    {
+     "start": 215,
+     "end": 226
+    },
+    {
+     "start": 237,
+     "end": 248
+    }
+   ]
+  },
+  {
+   "voFrames": 262,
+   "phrases": [
+    {
+     "start": 6,
+     "end": 77
+    },
+    {
+     "start": 94,
+     "end": 157
+    },
+    {
+     "start": 169,
+     "end": 214
+    },
+    {
+     "start": 232,
+     "end": 256
+    }
+   ]
+  },
+  {
+   "voFrames": 213,
+   "phrases": [
+    {
+     "start": 14,
+     "end": 80
+    },
+    {
+     "start": 93,
+     "end": 121
+    },
+    {
+     "start": 135,
+     "end": 169
+    },
+    {
+     "start": 180,
+     "end": 202
+    }
+   ]
+  },
+  {
+   "voFrames": 326,
+   "phrases": [
+    {
+     "start": 13,
+     "end": 64
+    },
+    {
+     "start": 82,
+     "end": 136
+    },
+    {
+     "start": 150,
+     "end": 223
+    },
+    {
+     "start": 243,
+     "end": 320
+    }
+   ]
+  },
+  {
+   "voFrames": 430,
+   "phrases": [
+    {
+     "start": 6,
+     "end": 74
+    },
+    {
+     "start": 98,
+     "end": 180
+    },
+    {
+     "start": 202,
+     "end": 308
+    },
+    {
+     "start": 327,
+     "end": 426
+    }
+   ]
+  },
+  {
+   "voFrames": 255,
+   "phrases": [
+    {
+     "start": 14,
+     "end": 73
+    },
+    {
+     "start": 89,
+     "end": 184
+    },
+    {
+     "start": 191,
+     "end": 243
+    }
+   ]
+  },
+  {
+   "voFrames": 221,
+   "phrases": [
+    {
+     "start": 13,
+     "end": 55
+    },
+    {
+     "start": 72,
+     "end": 97
+    },
+    {
+     "start": 107,
+     "end": 136
+    },
+    {
+     "start": 151,
+     "end": 227
+    }
+   ]
+  },
+  {
+   "voFrames": 302,
+   "phrases": [
+    {
+     "start": 15,
+     "end": 30
+    },
+    {
+     "start": 40,
+     "end": 68
+    },
+    {
+     "start": 86,
+     "end": 156
+    },
+    {
+     "start": 171,
+     "end": 195
+    },
+    {
+     "start": 210,
+     "end": 218
+    },
+    {
+     "start": 241,
+     "end": 297
+    }
+   ]
+  },
+  {
+   "voFrames": 262,
+   "phrases": [
+    {
+     "start": 13,
+     "end": 86
+    },
+    {
+     "start": 94,
+     "end": 102
+    },
+    {
+     "start": 110,
+     "end": 148
+    },
+    {
+     "start": 171,
+     "end": 220
+    },
+    {
+     "start": 230,
+     "end": 258
+    }
+   ]
+  },
+  {
+   "voFrames": 300,
+   "phrases": [
+    {
+     "start": 6,
+     "end": 136
+    },
+    {
+     "start": 149,
+     "end": 244
+    },
+    {
+     "start": 257,
+     "end": 297
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,563 @@
+{
+ "_doc": "One entry per sound effect. frame = frame inside the scene (same numbers as the scene code). align: onset (attack lands on the frame: pops, knocks, taps, notes) or peak (loudest moment lands on the frame: whooshes, swishes, swells). gain_db is applied to a take rendered at -1 dBFS peak.",
+ "transitions": {
+  "_doc": "a swish centred on each scene transition, by kind; fade = silent",
+  "kinds": [
+   "slide",
+   "slide",
+   "wipe",
+   "fade",
+   "slide",
+   "wipe",
+   "fade",
+   "slide",
+   "wipe"
+  ],
+  "slide": "swish/flick",
+  "wipe": "swish/zing",
+  "gain_db": -21
+ },
+ "cues": [
+  {
+   "scene": 1,
+   "frame": 6,
+   "sound": "swish/soft",
+   "gain_db": -20,
+   "align": "peak"
+  },
+  {
+   "scene": 1,
+   "frame": 10,
+   "sound": "mallet/pluck",
+   "gain_db": -15,
+   "align": "onset",
+   "knobs": {
+    "pitch": "C4"
+   }
+  },
+  {
+   "scene": 1,
+   "frame": 32,
+   "sound": "mallet/pluck",
+   "gain_db": -15,
+   "align": "onset",
+   "knobs": {
+    "pitch": "E4"
+   }
+  },
+  {
+   "scene": 1,
+   "frame": 54,
+   "sound": "mallet/pluck",
+   "gain_db": -15,
+   "align": "onset",
+   "knobs": {
+    "pitch": "G4"
+   }
+  },
+  {
+   "scene": 1,
+   "frame": 76,
+   "sound": "mallet/pluck",
+   "gain_db": -15,
+   "align": "onset",
+   "knobs": {
+    "pitch": "C5"
+   }
+  },
+  {
+   "scene": 1,
+   "frame": 100,
+   "sound": "mallet/flourish",
+   "gain_db": -12,
+   "align": "onset"
+  },
+  {
+   "scene": 1,
+   "frame": 100,
+   "sound": "ui_pop/wide",
+   "gain_db": -14,
+   "align": "onset"
+  },
+  {
+   "scene": 1,
+   "frame": 212,
+   "sound": "swish/flick",
+   "gain_db": -16,
+   "align": "peak"
+  },
+  {
+   "scene": 1,
+   "frame": 222,
+   "sound": "ui_pop/soft",
+   "gain_db": -13,
+   "align": "onset"
+  },
+  {
+   "scene": 2,
+   "frame": 90,
+   "sound": "ui_pop/soft",
+   "gain_db": -13,
+   "align": "onset"
+  },
+  {
+   "scene": 2,
+   "frame": 226,
+   "sound": "ui_pop/boop",
+   "gain_db": -13,
+   "align": "onset"
+  },
+  {
+   "scene": 2,
+   "frame": 240,
+   "sound": "knock/double",
+   "gain_db": -10,
+   "align": "onset"
+  },
+  {
+   "scene": 2,
+   "frame": 242,
+   "sound": "notify/mid_tine",
+   "gain_db": -16,
+   "align": "onset"
+  },
+  {
+   "scene": 3,
+   "frame": 90,
+   "sound": "ui_pop/soft",
+   "gain_db": -13,
+   "align": "onset"
+  },
+  {
+   "scene": 3,
+   "frame": 110,
+   "sound": "shutter/snap",
+   "gain_db": -15,
+   "align": "onset"
+  },
+  {
+   "scene": 3,
+   "frame": 212,
+   "sound": "ui_pop/fall",
+   "gain_db": -13,
+   "align": "onset"
+  },
+  {
+   "scene": 4,
+   "frame": 74,
+   "sound": "swish/bright",
+   "gain_db": -18,
+   "align": "peak"
+  },
+  {
+   "scene": 4,
+   "frame": 142,
+   "sound": "swish/bright",
+   "gain_db": -18,
+   "align": "peak"
+  },
+  {
+   "scene": 4,
+   "frame": 234,
+   "sound": "swish/bright",
+   "gain_db": -18,
+   "align": "peak"
+  },
+  {
+   "scene": 4,
+   "frame": 84,
+   "sound": "ui_pop/step",
+   "gain_db": -14,
+   "align": "onset",
+   "knobs": {
+    "pitch": "Bb4"
+   }
+  },
+  {
+   "scene": 4,
+   "frame": 152,
+   "sound": "ui_pop/step",
+   "gain_db": -14,
+   "align": "onset",
+   "knobs": {
+    "pitch": "C5"
+   }
+  },
+  {
+   "scene": 4,
+   "frame": 244,
+   "sound": "ui_pop/step",
+   "gain_db": -14,
+   "align": "onset",
+   "knobs": {
+    "pitch": "D5"
+   }
+  },
+  {
+   "scene": 5,
+   "frame": 96,
+   "sound": "knock/wood",
+   "gain_db": -12,
+   "align": "onset"
+  },
+  {
+   "scene": 5,
+   "frame": 165,
+   "sound": "reverse_swell/short",
+   "gain_db": -20,
+   "align": "peak"
+  },
+  {
+   "scene": 5,
+   "frame": 166,
+   "sound": "notify/mid_tine",
+   "gain_db": -14,
+   "align": "onset"
+  },
+  {
+   "scene": 5,
+   "frame": 188,
+   "sound": "drip/tiny",
+   "gain_db": -22,
+   "align": "onset"
+  },
+  {
+   "scene": 5,
+   "frame": 193,
+   "sound": "drip/tiny",
+   "gain_db": -22,
+   "align": "onset"
+  },
+  {
+   "scene": 5,
+   "frame": 198,
+   "sound": "drip/tiny",
+   "gain_db": -22,
+   "align": "onset"
+  },
+  {
+   "scene": 5,
+   "frame": 203,
+   "sound": "drip/tiny",
+   "gain_db": -22,
+   "align": "onset"
+  },
+  {
+   "scene": 5,
+   "frame": 208,
+   "sound": "drip/tiny",
+   "gain_db": -22,
+   "align": "onset"
+  },
+  {
+   "scene": 5,
+   "frame": 213,
+   "sound": "drip/tiny",
+   "gain_db": -22,
+   "align": "onset"
+  },
+  {
+   "scene": 5,
+   "frame": 218,
+   "sound": "drip/tiny",
+   "gain_db": -22,
+   "align": "onset"
+  },
+  {
+   "scene": 5,
+   "frame": 223,
+   "sound": "drip/tiny",
+   "gain_db": -22,
+   "align": "onset"
+  },
+  {
+   "scene": 5,
+   "frame": 206,
+   "sound": "mallet/up4",
+   "gain_db": -15,
+   "align": "onset"
+  },
+  {
+   "scene": 5,
+   "frame": 336,
+   "sound": "glitch/mid",
+   "gain_db": -16,
+   "align": "onset"
+  },
+  {
+   "scene": 6,
+   "frame": 8,
+   "sound": "drip/bloop",
+   "gain_db": -13,
+   "align": "onset"
+  },
+  {
+   "scene": 6,
+   "frame": 86,
+   "sound": "ui_pop/soft",
+   "gain_db": -13,
+   "align": "onset"
+  },
+  {
+   "scene": 6,
+   "frame": 134,
+   "sound": "swish/soft",
+   "gain_db": -19,
+   "align": "peak"
+  },
+  {
+   "scene": 6,
+   "frame": 140,
+   "sound": "mallet/marimba",
+   "gain_db": -16,
+   "align": "onset",
+   "knobs": {
+    "pitch": "G5"
+   }
+  },
+  {
+   "scene": 6,
+   "frame": 156,
+   "sound": "mallet/marimba",
+   "gain_db": -16,
+   "align": "onset",
+   "knobs": {
+    "pitch": "E5"
+   }
+  },
+  {
+   "scene": 6,
+   "frame": 172,
+   "sound": "mallet/marimba",
+   "gain_db": -16,
+   "align": "onset",
+   "knobs": {
+    "pitch": "C5"
+   }
+  },
+  {
+   "scene": 6,
+   "frame": 188,
+   "sound": "mallet/marimba",
+   "gain_db": -16,
+   "align": "onset",
+   "knobs": {
+    "pitch": "A4"
+   }
+  },
+  {
+   "scene": 6,
+   "frame": 204,
+   "sound": "mallet/marimba",
+   "gain_db": -16,
+   "align": "onset",
+   "knobs": {
+    "pitch": "F4"
+   }
+  },
+  {
+   "scene": 6,
+   "frame": 170,
+   "sound": "knock/desk",
+   "gain_db": -12,
+   "align": "onset"
+  },
+  {
+   "scene": 6,
+   "frame": 188,
+   "sound": "ui_pop/fall",
+   "gain_db": -15,
+   "align": "onset"
+  },
+  {
+   "scene": 7,
+   "frame": 18,
+   "sound": "whoosh_big/thump",
+   "gain_db": -13,
+   "align": "peak"
+  },
+  {
+   "scene": 7,
+   "frame": 40,
+   "sound": "knock/desk",
+   "gain_db": -10,
+   "align": "onset"
+  },
+  {
+   "scene": 7,
+   "frame": 40,
+   "sound": "shutter/snap",
+   "gain_db": -16,
+   "align": "onset"
+  },
+  {
+   "scene": 7,
+   "frame": 72,
+   "sound": "ui_pop/blip",
+   "gain_db": -15,
+   "align": "onset",
+   "knobs": {
+    "pitch": "C5"
+   }
+  },
+  {
+   "scene": 7,
+   "frame": 106,
+   "sound": "ui_pop/blip",
+   "gain_db": -15,
+   "align": "onset",
+   "knobs": {
+    "pitch": "E5"
+   }
+  },
+  {
+   "scene": 7,
+   "frame": 150,
+   "sound": "ui_pop/blip",
+   "gain_db": -15,
+   "align": "onset",
+   "knobs": {
+    "pitch": "G5"
+   }
+  },
+  {
+   "scene": 8,
+   "frame": 86,
+   "sound": "ui_pop/soft",
+   "gain_db": -13,
+   "align": "onset"
+  },
+  {
+   "scene": 8,
+   "frame": 208,
+   "sound": "cut_hit/punch",
+   "gain_db": -11,
+   "align": "onset"
+  },
+  {
+   "scene": 8,
+   "frame": 216,
+   "sound": "ui_pop/boop",
+   "gain_db": -15,
+   "align": "onset"
+  },
+  {
+   "scene": 8,
+   "frame": 236,
+   "sound": "knock/snap",
+   "gain_db": -11,
+   "align": "onset"
+  },
+  {
+   "scene": 8,
+   "frame": 250,
+   "sound": "swish/soft",
+   "gain_db": -21,
+   "align": "peak"
+  },
+  {
+   "scene": 9,
+   "frame": 60,
+   "sound": "ui_pop/soft",
+   "gain_db": -13,
+   "align": "onset"
+  },
+  {
+   "scene": 9,
+   "frame": 128,
+   "sound": "mallet/up4",
+   "gain_db": -14,
+   "align": "onset"
+  },
+  {
+   "scene": 9,
+   "frame": 170,
+   "sound": "knock/wood",
+   "gain_db": -12,
+   "align": "onset",
+   "knobs": {
+    "pitch": "C5"
+   }
+  },
+  {
+   "scene": 9,
+   "frame": 184,
+   "sound": "ui_pop/blip",
+   "gain_db": -17,
+   "align": "onset"
+  },
+  {
+   "scene": 9,
+   "frame": 198,
+   "sound": "knock/wood",
+   "gain_db": -12,
+   "align": "onset",
+   "knobs": {
+    "pitch": "E5"
+   }
+  },
+  {
+   "scene": 9,
+   "frame": 228,
+   "sound": "ui_pop/blip",
+   "gain_db": -17,
+   "align": "onset"
+  },
+  {
+   "scene": 9,
+   "frame": 240,
+   "sound": "mallet/flourish",
+   "gain_db": -11,
+   "align": "onset"
+  },
+  {
+   "scene": 9,
+   "frame": 240,
+   "sound": "cut_hit/sub",
+   "gain_db": -16,
+   "align": "onset"
+  },
+  {
+   "scene": 10,
+   "frame": 14,
+   "sound": "whoosh_fast/tight",
+   "gain_db": -19,
+   "align": "peak"
+  },
+  {
+   "scene": 10,
+   "frame": 18,
+   "sound": "knock/desk",
+   "gain_db": -13,
+   "align": "onset"
+  },
+  {
+   "scene": 10,
+   "frame": 148,
+   "sound": "ui_pop/wide",
+   "gain_db": -14,
+   "align": "onset"
+  },
+  {
+   "scene": 10,
+   "frame": 152,
+   "sound": "drip/bloop",
+   "gain_db": -16,
+   "align": "onset"
+  },
+  {
+   "scene": 10,
+   "frame": 255,
+   "sound": "ui_pop/step",
+   "gain_db": -13,
+   "align": "onset"
+  },
+  {
+   "scene": 10,
+   "frame": 257,
+   "sound": "notify/mid_wood",
+   "gain_db": -15,
+   "align": "onset"
+  }
+ ]
+}

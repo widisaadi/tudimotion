@@ -1,0 +1,5 @@
+.env
+node_modules
+out
+public/audio
+public/vo
